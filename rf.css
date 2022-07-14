@@ -1,0 +1,32 @@
+:root {
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --grey: #6B7280;
+    --pink: #EC4899;
+    --purple: #8B5CF6;
+    --light: #EEE;
+    --blue: 
+#00BFFF;
+    --mintcream: #F5FFFA;
+    --ghostwhite: #F8F8FF;
+    --nardo: #686A6C;
+} 
+body {
+    display: flex;
+    flex-direction: column ;
+    min-height: 300vh;
+    background-color: var(--blue);
+}
+table{
+    margin-top: 50px;
+    text-align: center;
+    background-color: var(--mintcream);
+}
+#show th,#show td{
+    padding: 13px;
+    color: var(--darkest);
+}
+
+
+
